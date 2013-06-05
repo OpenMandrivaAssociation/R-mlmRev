@@ -2,13 +2,13 @@
 %global rlibdir  %{_libdir}/R/library
 
 Name:             R-%{packname}
-Version:          1.0_1
+Version:          1.0.1
 Release:          1
 Summary:          Examples from Multilevel Modelling Software Review
 Group:            Sciences/Mathematics
 License:          GPL (>= 2)
 URL:              http://cran.r-project.org/web/packages/%{packname}/index.html
-Source0:          http://cran.r-project.org/src/contrib/%{packname}_1.0-1.tar.gz
+Source0:          http://cran.r-project.org/src/contrib/mlmRev_1.0-1.tar.gz
 Requires:         R-lme4 
 BuildRequires:    R-devel Rmath-devel texlive-collection-latex R-lme4
 
@@ -41,3 +41,4 @@ rm -f %{buildroot}%{rlibdir}/R.css
 %{rlibdir}/%{packname}/data
 %{rlibdir}/%{packname}/help
 %{rlibdir}/%{packname}/original
+
