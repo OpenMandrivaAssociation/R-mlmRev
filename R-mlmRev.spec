@@ -3,7 +3,7 @@
 
 Name:             R-%{packname}
 Version:          1.0_1
-Release:          1
+Release:          2
 Summary:          Examples from Multilevel Modelling Software Review
 Group:            Sciences/Mathematics
 License:          GPL (>= 2)
